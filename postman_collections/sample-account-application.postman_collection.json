@@ -1,0 +1,35 @@
+{
+  "info": {
+    "_postman_id": "",
+    "name": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "health check",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+
+          
+          ],
+        "url": {
+          "raw": "{{API_BASE_URL}}/health",
+          "host": ["{{API_BASE_URL}}"],
+          "path": ["health"]
+        }
+      },
+      "response": []
+    }
+    ]
+}
+  
+    
