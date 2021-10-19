@@ -1,0 +1,17 @@
+.logoWrapper {
+  height: 62px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@mdeia screen and (min-width: 1280px) {
+  .logoWrapper {
+    height: 100%;
+    margin: 0;
+    padding: 40px 30px;
+  }
+  
+  .logoWrapper > span {
+    width: 148px;
+  }
+}
